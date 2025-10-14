@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -59,6 +60,7 @@
             border: 1px solid black;
             padding: 8px;
             text-align: left;
+            list-style: none;
         }
         .button {
             width: 100px;
@@ -74,29 +76,33 @@
         .font_center{
             text-align: center;
         }
+
+        .left{
+            float: right;
+        
+        }
+
+
     </style>
 </head>
 <body>
     <div class="content-wrapper">
         <header>
             <h1>Geumsu Matome</h1>
-            <input type="text" placeholder="Enter text here">
-            <input type="password" placeholder="Enter XX here">
-            <hr>
-            
-            <nav>
-                <ul style="color: brown;">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                    <input type="find" value="Find">
-            </nav>
+
             <br>
-            <!-- 버튼 -->
-            <div class="button">
+                <div class="button">
                     <a href="https://www.youtube.com/@taeyunkim1436" class="font_center" target="_blank">채널 이동</a>    
                 </div>
+            <nav>
+                <ul style="color: red;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>                
+            <hr>
+            <br>
+
         </header>
 
         <main>
@@ -110,8 +116,11 @@
             </section>
             <hr>
             <section id="Contact">
+
                 <h2>Contact</h2>
+
                 <table class="table">
+
                     <tr>
                         <th>Title</th>
                         <th>Link</th>
@@ -143,7 +152,7 @@
         </main>
 
         <footer>
-            <p0>&copy; 2025 Geumsu. All rights reserved.</p0>
+            <p0>&copy;Taeyun kim, Geumsu.</p0>
         </footer>
     </div>
 </body>
