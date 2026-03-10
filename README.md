@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your page description">
-    <title>41915020 메카트로닉스 김태윤</title>
+    <title>TaeYun Kim</title>
     <style>
 
         body {
@@ -60,7 +60,6 @@
             border: 1px solid black;
             padding: 8px;
             text-align: left;
-            list-style: none;
         }
         .button {
             width: 100px;
@@ -76,35 +75,29 @@
         .font_center{
             text-align: center;
         }
-
-        .left{
-            float: right;
-        
-        }
-
-
     </style>
 </head>
 <body>
     <div class="content-wrapper">
         <header>
             <h1>Geumsu Matome</h1>
-
+            <hr>
+            
+            
+            <ul style="color: brown;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
             <br>
-                <div class="button">
+            <!-- 버튼 -->
+
+            <div class="button">
                     <a href="https://www.youtube.com/@taeyunkim1436" class="font_center" target="_blank">채널 이동</a>    
                 </div>
-            <nav>
-                <ul style="color: red;">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>                
-            <hr>
-            <br>
-
         </header>
-
+            <hr>
         <main>
             <section id="home">
                 <h2>Home</h2>
@@ -116,11 +109,8 @@
             </section>
             <hr>
             <section id="Contact">
-
                 <h2>Contact</h2>
-
                 <table class="table">
-
                     <tr>
                         <th>Title</th>
                         <th>Link</th>
@@ -152,7 +142,7 @@
         </main>
 
         <footer>
-            <p0>&copy;Taeyun kim, Geumsu.</p0>
+            <p0>&copy; Last updated: 2026.03.10</p0>
         </footer>
     </div>
 </body>
