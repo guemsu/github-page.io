@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your page description">
-    <title>41915020 메카트로닉스 김태윤</title>
+    <title>TaeYun Kim</title>
     <style>
 
         body {
@@ -81,25 +81,23 @@
     <div class="content-wrapper">
         <header>
             <h1>Geumsu Matome</h1>
-            <input type="text" placeholder="Enter text here">
-            <input type="password" placeholder="Enter XX here">
             <hr>
             
-            <nav>
-                <ul style="color: brown;">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                    <input type="find" value="Find">
-            </nav>
+            
+            <ul style="color: brown;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
             <br>
             <!-- 버튼 -->
+
             <div class="button">
                     <a href="https://www.youtube.com/@taeyunkim1436" class="font_center" target="_blank">채널 이동</a>    
                 </div>
         </header>
-
+            <hr>
         <main>
             <section id="home">
                 <h2>Home</h2>
@@ -144,7 +142,7 @@
         </main>
 
         <footer>
-            <p0>&copy; 2025 Geumsu. All rights reserved.</p0>
+            <p0>&copy; Last updated: 2026.03.10</p0>
         </footer>
     </div>
 </body>
