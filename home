@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your page description">
-    <title>TaeYun Kim   ティユン・キム</title>
+    <title>41915020 メカトロニクス キム・テユン</title>
     <style>
 
         body {
@@ -62,48 +62,56 @@
             text-align: left;
         }
         .button {
-            width: 100px;
-            height: 50px;
-            background-color: violet;
+            width: 120px;
+            height: 40px;
+            background-color: rgb(165, 162, 184);
             border-radius: 10px;
-            line-height: 50px;
+            line-height: 40px;
             text-align: center;
             box-shadow: 2px 2px 5px gray;
+            float: left;  /* 왼쪽 정렬 추가 */
+            margin-right: 20px;  /* 오른쪽 여백 추가 */
             
         }
         
         .font_center{
             text-align: center;
         }
+        
+        /* 버튼 아래 내용이 겹치지 않도록 */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
 </head>
 <body>
     <div class="content-wrapper">
         <header>
-            <h1>Geumsu Matome</h1>
+            <h2>Contents</h2>
             <hr>
-            
-            
-            <ul style="color: brown;">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            
-            <br>
-            <!-- 버튼 -->
-
-            <div class="button">
-                    <a href="https://www.youtube.com/@taeyunkim1436" class="font_center" target="_blank">채널 이동</a>    
+            <!-- ボタン -->
+            <div class="clearfix">  <!-- float 해제용 래퍼 추가 -->
+                <div class="button">
+                    <a href="https://www.youtube.com/@taeyunkim1436 " class="font_center" target="_blank">チャンネル</a>    
                 </div>
-        </header>
+            </div>            
+
+                <ul style="color: brown;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             <hr>
+            <br>
+
+        </header>
+
         <main>
-            <section id="home">
+            <section id="home" class="clearfix">  <!-- float 영향 받지 않도록 -->
                 <h2>Home</h2>
                 
-                
-                    
                 <p>.</p>
         
             </section>
@@ -116,20 +124,20 @@
                         <th>Link</th>
                     </tr>
                     <tr>
-                        <td>i2r-03 보드 node-red를 이용한 led 제어</td>
-                        <td><a href="https://youtu.be/PJevLjtyoPs">https://youtu.be/PJevLjtyoPs</a></td>
+                        <td>i2r-03 ボード node-redを利用したled制御</td>
+                        <td><a href="https://youtu.be/PJevLjtyoPs ">https://youtu.be/PJevLjtyoPs </a></td>
                     </tr>
                     <tr>
-                        <td>구글 챗봇으로 otto봇 제어</td>
-                        <td><a href="https://youtu.be/5SSHjw0Dp0M">https://youtu.be/5SSHjw0Dp0M</a></td>
+                        <td>グーグルチャットボットでottoボット制御</td>
+                        <td><a href="https://youtu.be/5SSHjw0Dp0M ">https://youtu.be/5SSHjw0Dp0M </a></td>
                     </tr>
                     <tr>
-                        <td>i2r-03 보드 mqtt 통신 어플리케이션 제어</td>
-                        <td><a href="https://youtu.be/zWx08fLCi18">https://youtu.be/zWx08fLCi18</a></td>
+                        <td>i2r-03 ボード mqtt通信アプリケーション制御</td>
+                        <td><a href="https://youtu.be/zWx08fLCi18 ">https://youtu.be/zWx08fLCi18 </a></td>
                     </tr>
                     <tr>
-                        <td>react 기반 mqtt 통신(short)</td>
-                        <td><a href="https://youtube.com/shorts/SZSKvZD95-g?feature=share">https://youtube.com/shorts/SZSKvZD95-g?feature=share</a></td>
+                        <td>react ベース mqtt通信(short)</td>
+                        <td><a href="https://youtube.com/shorts/SZSKvZD95-g?feature=share ">https://youtube.com/shorts/SZSKvZD95-g?feature=share </a></td>
                     </tr>
 
 
@@ -142,7 +150,7 @@
         </main>
 
         <footer>
-            <p0>&copy; Last updated: 2026.03.10</p0>
+            <p0>&copy; 2025 Geumsu. All rights reserved.</p0>
         </footer>
     </div>
 </body>
